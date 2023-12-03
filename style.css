@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------The chef logo------------------- */
+
+.chef-logo img{
+    height: 30px;
+    width: 30px;
+}
+.logo-name{
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+
+/* -------------------General style start here------------------- */
+.section {
+    padding: 30px 0;
+}
+.section h1{
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+}
+.section h2{
+    font-size: 1.5rem;
+}
+
+.section .btn{
+    background-color: #365802;
+}
+.section .btn:hover{
+    background-color: #6aad04;
+}
+.section h4{
+    background-color: #6aad04;
+    color: white;
+}
+
+
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+ input[type=submit] {
+    background-color: #365802;
+    color: white;
+    padding: 0px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #68ac03;
+  }
+   
+  input[type=text]:focus {
+    border: 3px solid #365802;
+  }
+  
+form { display: flex;}
+@media (min-width: 768px) { 
+   input[type=text] {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 4px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+      }
+    
+       input[type=submit] {
+        background-color: #365802;
+        color: white;
+        padding: 0px 50px;
+        border: none;
+        cursor: pointer;
+      }
+      
+}
+/* -------------------General style end here------------------- */
+
+
+
+/* -------------------Navebar start here------------------- */
+
+.navbar {
+    background-color: #e2f0f3;
+}
+
+li a {
+    color: black;
+    font-weight: 500;
+}
+
+li a:hover {
+   border-bottom: 2px solid #365802;
+}
+/* -------------------General style end here------------------- */
+
+
+
+
+
+/* -------------------Hero section start here------------------- */
+
+.hero{
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(/image/Layer\ 0.jpg);
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.hero .hero-text {
+    top: 40%;
+    left: 5%;
+}
+
+.hero .hero-text h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.226);
+}
+
+
+.icons  {
+    
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.icons a{
+   text-decoration: none;
+   color: white;
+}
+
+ .icons .icon-item {
+    background-color: #365802;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+ .icons .icon-item:hover {
+    background-color: #63a106;
+}
+
+@media (min-width: 768px) { 
+    .hero{
+        background-size: cover;
+    }
+    .hero .hero-text {
+        top: 40%;
+        left: 5%;
+    }
+    .hero .hero-text h1 {
+        font-weight: 700;
+        font-size: 3.5rem;
+        text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.456);
+    }
+
+   input[type=text] {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 4px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+      }
+    
+       input[type=submit] {
+        background-color: #365802;
+        color: white;
+        padding: 0px 50px;
+        border: none;
+        cursor: pointer;
+      }
+      
+}
+
+/* -------------------Hero section end here------------------- */
+
+
+/* -------------------Section-1 start here------------------- */
+
+.section-1 {
+    height: 600px;
+    background-attachment: fixed;
+    background-image: url(/image/Layer\ 0.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.section-1 .about-img {
+    height: 200px;
+    width: 200px;
+}
+
+.section-1 .about-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.section-1 .box {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.424);
+    padding: 5px 50px;
+    color: white;
+}
+
+@media (min-width: 768px) { 
+    .section-1 {
+        height: 400px;
+    }
+    
+    .section-1 .about-img {
+        height: 300px;
+        width: 300px;
+    }
+    .section-1 .box {
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0.424);
+        padding: 65px 50px;
+        color: white;
+    }
+}
+/* -------------------section-1 end here------------------- */
+
+
+/* -------------------Menu section start here------------------- */
+
+.card {
+    overflow: hidden;
+}
+/* -------------------Menu section end here------------------- */
+
+/* -------------------section-3 start here------------------- */
+.section-3 {
+    height: 300px;
+    background-attachment: fixed;
+    background-image: url(/image/Layer-section-3.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+/* -------------------section-3 end here------------------- */
+
+/* -------------------section-5 start here------------------- */
+
+    .section-5 {
+        height: 300px;
+        background-attachment: fixed;
+        background-image: url(/image/Layer\ 0.jpg);
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-5 h1 {
+        font-size: 1.5rem;
+    }
+    
+    .section-5 .footer-icon a{
+        background-color: white;
+        padding: 5px;
+        text-decoration: none;
+        color: #365802;
+    }
+
+    .section-5 .footer-icon a:hover{
+        padding: 5px;
+        text-decoration: none;
+        color: #71b807;
+    }
+
+    /* -------------------section-5 end here------------------- */
