@@ -10,11 +10,27 @@
     height: 30px;
     width: 30px;
 }
+
 .logo-name{
    font-size: 1.5rem;
    font-weight: 700;
 }
 
+/* -------------------Navebar start here------------------- */
+
+.navbar {
+    background-color: #e2f0f3;
+    z-index: 99;
+}
+
+li a {
+    color: black;
+    font-weight: 500;
+}
+
+li a:hover {
+   border-bottom: 2px solid #365802;
+}
 
 /* -------------------General style start here------------------- */
 .section {
@@ -90,24 +106,7 @@ form { display: flex;}
       }
       
 }
-/* -------------------General style end here------------------- */
 
-
-
-/* -------------------Navebar start here------------------- */
-
-.navbar {
-    background-color: #e2f0f3;
-}
-
-li a {
-    color: black;
-    font-weight: 500;
-}
-
-li a:hover {
-   border-bottom: 2px solid #365802;
-}
 /* -------------------General style end here------------------- */
 
 
@@ -119,20 +118,23 @@ li a:hover {
 .hero{
     height: 100vh;
     background-attachment: fixed;
-    background-image: url(/image/Layer\ 0.jpg);
+    background-image: url(./image/hero-image--1.jpg);
     background-size: contain;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+
 .hero .hero-text {
-    top: 40%;
+    top: 20%;
     left: 5%;
 }
 
 .hero .hero-text h1 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.226);
 }
 
@@ -160,6 +162,16 @@ li a:hover {
 }
 
 @media (min-width: 768px) { 
+    
+.hero{
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(./image/Layer\ 0.jpg);
+    background-size: contain;
+    overflow: hidden;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
     .hero{
         background-size: cover;
     }
